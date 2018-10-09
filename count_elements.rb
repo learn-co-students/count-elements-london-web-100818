@@ -1,4 +1,10 @@
 def count_elements(array)
-  # code goes here
+  
+hash = {}
+
+array.each {|x| hash[x] = array.count(x)}
+
+hash
+
 end
  
